@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="JK.Mexc.Net" Version="1.2.4" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0-preview.3.24172.9" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="WTelegramClient" Version="4.1.2-dev.2" />
+	  <Reference Include="MexcApiSdk">
+		<HintPath>libs\MexcApiSdk.dll</HintPath>
+	  </Reference>
+    </ItemGroup>
+
+</Project>
